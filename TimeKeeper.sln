@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.808.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeKeeperAPI", "TimeKeeperAPI\TimeKeeperAPI.csproj", "{F7C335AF-94A9-4C25-96C1-588D35E6FEF6}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "TimeKeeper.SharedLibrary", "TimeKeeper.Library\TimeKeeper.SharedLibrary.shproj", "{162DCD8B-6124-477B-B686-8E913CDD27C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7C335AF-94A9-4C25-96C1-588D35E6FEF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7C335AF-94A9-4C25-96C1-588D35E6FEF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7C335AF-94A9-4C25-96C1-588D35E6FEF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7C335AF-94A9-4C25-96C1-588D35E6FEF6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AB0AA0C3-03AB-4E35-82D4-BC34B27BE3D0}
+	EndGlobalSection
+EndGlobal
